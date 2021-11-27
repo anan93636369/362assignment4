@@ -30,4 +30,8 @@ Or to create new files as you needed.
 
 To know more details, read CONTRIBUTE.md
 
+# How to make a pull request 
+
+-READ CONTRIBUTE.md.
+
 
