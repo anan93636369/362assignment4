@@ -2,6 +2,8 @@
 
 This is a mini-tool that provides a visualization of your current time clock and a simple timer. 
 
+MORE FEAUTRES IN PROGRESS~
+
 read README.md
 
 
@@ -27,3 +29,5 @@ You can open the corresponding files in your coding editor to edit the code.
 Or to create new files as you needed.
 
 To know more details, read CONTRIBUTE.md
+
+
