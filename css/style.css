@@ -86,7 +86,7 @@ body {
   width: 40%;
   color: red;  
   padding: 4px;
-  padding-block: 5px;
+  padding-block: 8px;
   display: block;
   overflow: auto;
 }
