@@ -28,9 +28,10 @@ $(function () {
     })
     // Pause
     $(".btn_suspend").click(function () { 
-        $(this).hide();
+        $(this).hide();        
         $(".btn_start").show();
         // puase
+        pauseCounter();
         clearInterval(timerSetInter);
     })
     // End
@@ -107,9 +108,14 @@ $(function () {
         t_sec = 0;
         t_mil = 0;
         $(".time_box").text("00:00:00.00")
+        pauseCount = 0;
+        document.getElementById("pause_list").innerHTML = " ";
+    }
+
+    var pauseCount = 0;
+
+    function pauseCounter() {
+    pauseCount++;
+    document.getElementById("pause_list").innerHTML += pauseCount + " - " + t_hour + ":" + t_min + ":" + t_sec + "." + t_mil + "<br>";    
     }
 })
-
-
-
-

@@ -62,6 +62,36 @@ body {
   display: none;
 }
 
+/*Pause box */
+.pause_count {
+  margin-top: 40px;
+  letter-spacing: 1px;
+  background: #fff;
+  border: 2px solid red;
+  border-radius: 5px;
+  width: 40%;
+  color: red;
+  font-weight: bold;
+  padding: 4px;
+  text-align: center; 
+}
+
+.pause_box {
+  padding-top: 10px;  
+  background: #fff;
+  border-left: 2px solid red;
+  border-right: 2px solid red;
+  border-bottom: 2px solid red;
+  border-radius: 5px;
+  width: 40%;
+  color: red;  
+  padding: 4px;
+  padding-block: 5px;
+  display: block;
+  overflow: auto;
+}
+/*Pause box */
+
 /* Clock */
 .clock_box {
   width: 50%;
