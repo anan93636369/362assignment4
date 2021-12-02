@@ -73,7 +73,8 @@ body {
   color: red;
   font-weight: bold;
   padding: 4px;
-  text-align: center; 
+  text-align: center;
+  position: relative; 
 }
 
 .pause_box {
@@ -89,6 +90,7 @@ body {
   padding-block: 8px;
   display: block;
   overflow: auto;
+  position: relative;
 }
 /*Pause box */
 
