@@ -10,8 +10,9 @@ $(function startTime(){
 	AmOrPm = current_hour >= 12 ? 'PM' : 'AM';
 	current_hour = (current_hour % 12) || 12;
 
-    current_minute = checkTime(current_minute);
-  	current_seconds = checkTime(current_seconds);
+  current_hour = checkTime(current_hour);
+  current_minute = checkTime(current_minute);
+  current_seconds = checkTime(current_seconds);
 
 	var time = current_hour + ":" + current_minute + ":" + current_seconds + " " + AmOrPm;
 
